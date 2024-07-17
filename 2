@@ -1,0 +1,23 @@
+local UserInputService = game:GetService("UserInputService")
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character is fully loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Get the HumanoidRootPart of the character
+local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+
+-- Function to teleport the character
+local function teleportDown()
+    if humanoidRootPart then
+        humanoidRootPart.CFrame = humanoidRootPart.CFrame * CFrame.new(0, -8, 0)
+    end
+end
+
+-- Detect key press
+UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+    if input.KeyCode == Enum.KeyCode.E and not gameProcessedEvent then
+        teleportDown()
+    end
+end)
