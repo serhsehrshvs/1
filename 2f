@@ -2,7 +2,7 @@
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
 --//Lazy code and messy
-local KeyBind = Enum.KeyCode.RightShift --//You can edit keybind by replacing "RightShift" with your key
+local KeyBind = Enum.KeyCode.R --//You can edit keybind by replacing "RightShift" with your key
 
 
 
